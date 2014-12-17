@@ -1,5 +1,6 @@
-FROM zumbrunnen/postgresql:latest
+FROM postgres:9.3
 
-ADD ./createdb.conf /etc/supervisor/conf.d/createdb.conf
+ENV POSTGRES_USER docker
+ENV POSTGRES_PASSWORD docker
 
-CMD ["/usr/bin/supervisord"]
+COPY create-gitlab-db.sh /docker-entrypoint-initdb.d/
