@@ -1,5 +1,5 @@
 #!/bin/bash
 
-gosu postgres postgres --single -E <<-EOSQL
-	CREATE DATABASE resin
+psql --username postgres <<-EOSQL
+	CREATE DATABASE resin;
 EOSQL
