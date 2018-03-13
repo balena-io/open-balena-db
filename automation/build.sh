@@ -21,3 +21,11 @@ docker tag ${IMAGE_NAME}:${REVISION} ${IMAGE_NAME}:${VERSION}
 docker push ${IMAGE_NAME}:${REVISION}
 docker push ${IMAGE_NAME}:${BRANCH}
 docker push ${IMAGE_NAME}:${VERSION}
+
+# Push the images to open-balena-db repo
+docker tag ${IMAGE_NAME}:${REVISION} resin/open-balena-db:${REVISION}
+docker tag ${IMAGE_NAME}:${REVISION} resin/open-balena-db:${BRANCH}
+docker tag ${IMAGE_NAME}:${REVISION} resin/open-balena-db:${VERSION}
+docker push resin/open-balena-db:${REVISION}
+docker push resin/open-balena-db:${BRANCH}
+docker push resin/open-balena-db:${VERSION}
