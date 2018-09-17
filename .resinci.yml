@@ -1,0 +1,6 @@
+docker:
+  publish: false
+  builds:
+    - dockerfile: Dockerfile
+      docker_repo: resin/open-balena-db
+      path: .

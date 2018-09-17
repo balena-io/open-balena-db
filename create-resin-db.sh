@@ -1,5 +1,5 @@
 #!/bin/bash
 
-psql --username postgres <<-EOSQL
+psql --username docker <<-EOSQL
 	CREATE DATABASE resin;
 EOSQL
