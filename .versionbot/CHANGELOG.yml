@@ -1,4 +1,14 @@
 - commits:
+    - subject: Upgrade to postgres 12
+      hash: a1b0f390f03a975cc3b8edd0a0742a8dcc5c66df
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+      author: Pagan Gazzard
+  version: 4.0.0
+  date: 2020-04-02T15:13:16.516Z
+- commits:
     - subject: Add machine-readable changelog
       hash: c8f3c4ce0f3772194901cd2a1c93e6f8fcddf9d7
       body: ''
