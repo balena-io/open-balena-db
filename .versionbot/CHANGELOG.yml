@@ -1,4 +1,26 @@
 - commits:
+    - subject: 'upgrade: Container upgrades existing data on start'
+      hash: 59717dc58991418bb81a87bd1bbf08e60ebbfc68
+      body: |
+        Postgres will not automatically upgrade existing data when moving
+        to a different major version. These changes detect existing data
+        and compare their major versions to see if an upgrade is required.
+        If the upgrade is required then the correct tooling for the existing
+        data is installed and `pg_upgrade` is run.
+
+        Also part of this PR is the restructure of the data volume so that a
+        versioned sub-directory is used instead of the root of the mount. This
+        means that as you upgrade major versions you will keep a version of your
+        data which can be used.
+      footer:
+        Signed-off-by: Rich Bayliss <rich@balena.io>
+        signed-off-by: Rich Bayliss <rich@balena.io>
+        Change-type: minor
+        change-type: minor
+      author: Rich Bayliss
+  version: 4.1.0
+  date: 2020-04-08T13:15:22.986Z
+- commits:
     - subject: Upgrade to postgres 12
       hash: a1b0f390f03a975cc3b8edd0a0742a8dcc5c66df
       body: ''
