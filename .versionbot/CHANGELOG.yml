@@ -1,4 +1,14 @@
 - commits:
+    - subject: Upgrade to postgres 13
+      hash: 3204e6acc2b05ae3d36c9ee6d9e2f228a3f7c211
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+      author: Pagan Gazzard
+  version: 5.0.0
+  date: 2021-03-08T19:17:10.988Z
+- commits:
     - subject: 'upgrade: Container upgrades existing data on start'
       hash: 59717dc58991418bb81a87bd1bbf08e60ebbfc68
       body: |
