@@ -1,4 +1,14 @@
 - commits:
+    - subject: Delete .github directory
+      hash: 17c509b8d8d9cc5239e10c4f65ee51f0600ae92a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: dfunckt
+  version: 5.0.1
+  date: 2021-06-30T15:55:19.085Z
+- commits:
     - subject: Upgrade to postgres 13
       hash: 3204e6acc2b05ae3d36c9ee6d9e2f228a3f7c211
       body: ''
