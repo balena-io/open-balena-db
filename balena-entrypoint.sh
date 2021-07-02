@@ -114,5 +114,5 @@ fi
 export PGDATA="${PGDATA}/${TARGET_VERSION}"
 
 # run the existing Postgres entrypoint script...
-. /docker-entrypoint.sh
+. /usr/local/bin/docker-entrypoint.sh
 _main "$@"
