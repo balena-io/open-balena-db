@@ -1,4 +1,16 @@
 - commits:
+    - subject: >-
+        Fix upstream regression introduced by moving docker entrypoint away from
+        root
+      hash: 48bdd72cdaae868ea554e462b3b4b02942a4bd92
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: dfunckt
+  version: 5.0.2
+  date: 2021-07-02T16:08:21.344Z
+- commits:
     - subject: Delete .github directory
       hash: 17c509b8d8d9cc5239e10c4f65ee51f0600ae92a
       body: ''
