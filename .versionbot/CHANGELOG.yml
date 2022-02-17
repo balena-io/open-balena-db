@@ -1,9 +1,20 @@
 - commits:
-    - subject: >-
-        Fix upstream regression introduced by moving docker entrypoint away from
-        root
+    - subject: Modernize CI metadata
+      hash: 3bd4b80bb9dff8203fca5732bde3d7afae32467d
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Akis Kesoglou
+      nested: []
+  version: 5.0.3
+  title: "'Modernize CI metadata'"
+  date: 2022-02-17T09:50:58.986Z
+- commits:
+    - subject: Fix upstream regression introduced by moving docker entrypoint away
+        from root
       hash: 48bdd72cdaae868ea554e462b3b4b02942a4bd92
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -13,7 +24,7 @@
 - commits:
     - subject: Delete .github directory
       hash: 17c509b8d8d9cc5239e10c4f65ee51f0600ae92a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -23,7 +34,7 @@
 - commits:
     - subject: Upgrade to postgres 13
       hash: 3204e6acc2b05ae3d36c9ee6d9e2f228a3f7c211
-      body: ''
+      body: ""
       footer:
         Change-type: major
         change-type: major
@@ -31,7 +42,7 @@
   version: 5.0.0
   date: 2021-03-08T19:17:10.988Z
 - commits:
-    - subject: 'upgrade: Container upgrades existing data on start'
+    - subject: "upgrade: Container upgrades existing data on start"
       hash: 59717dc58991418bb81a87bd1bbf08e60ebbfc68
       body: |
         Postgres will not automatically upgrade existing data when moving
@@ -55,7 +66,7 @@
 - commits:
     - subject: Upgrade to postgres 12
       hash: a1b0f390f03a975cc3b8edd0a0742a8dcc5c66df
-      body: ''
+      body: ""
       footer:
         Change-type: major
         change-type: major
@@ -65,7 +76,7 @@
 - commits:
     - subject: Add machine-readable changelog
       hash: c8f3c4ce0f3772194901cd2a1c93e6f8fcddf9d7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -76,48 +87,48 @@
   date: 2019-06-26T15:15:35.001Z
 - commits:
     - author: Pagan Gazzard
-      body: ''
+      body: ""
       footers:
         change-type: major
       hash: aae070aca98c181d3ba856b8a9158cfe7caf75b9
       subject: Upgrade to postgres 11
-  date: '2019-03-19T18:03:34Z'
+  date: 2019-03-19T18:03:34Z
   version: 3.0.0
 - commits:
     - author: Heds Simons
-      body: ''
+      body: ""
       footers:
         change-type: patch
-        connects-to: '#18'
+        connects-to: "#18"
         signed-off-by: Heds Simons <heds@balena.io>
       hash: 99fbdc22f3638b56478a98189d62138bed86d8a5
-      subject: 'codeowners: Add @dfunckt, @Page- and @hedss'
-  date: '2019-03-09T13:11:18Z'
+      subject: "codeowners: Add @dfunckt, @Page- and @hedss"
+  date: 2019-03-09T13:11:18Z
   version: 2.0.3
 - commits:
     - author: Akis Kesoglou
-      body: ''
+      body: ""
       footers:
         change-type: patch
       hash: 2902c4d67faeae964fa4efae1bde656c6f147e0a
       subject: Add LICENSE
     - author: Akis Kesoglou
-      body: ''
+      body: ""
       footers:
         change-type: patch
       hash: d6aec024c0b57b781715d38922275f4a1a1c562c
       subject: Stop publishing to private Docker Hub repo
-  date: '2018-10-29T12:28:31Z'
+  date: 2018-10-29T12:28:31Z
   version: 2.0.2
 - commits:
     - author: Will Boyce
-      body: ''
+      body: ""
       footers:
         change-type: patch
         signed-off-by: Will Boyce <will@balena.io>
       hash: 76c6953bdf004c841d2a39a401f0a4ddf7126fe8
-      subject: 'rename: Publish Docker image to both balena and resin accounts'
-  date: '2018-10-25T20:26:52Z'
+      subject: "rename: Publish Docker image to both balena and resin accounts"
+  date: 2018-10-25T20:26:52Z
   version: 2.0.1
 - commits:
     - author: Akis Kesoglou
@@ -131,7 +142,7 @@
         signed-off-by: Akis Kesoglou <akis@resin.io>
       hash: 59cdc142ed296aa7f04d42e083e5c2b441fa00ad
       subject: Prepare for open sourcing
-  date: '2018-09-28T07:19:50Z'
+  date: 2018-09-28T07:19:50Z
   version: 2.0.0
 - commits:
     - author: Heds Simons
@@ -150,8 +161,8 @@
         connects-to: 13
         signed-off-by: Heds Simons <heds@resin.io>
       hash: c5b5e9413ecdbfdbb08a173e8e1c9cac10e78a45
-      subject: 'postgres: `resin` db created by `docker` user'
-  date: '2018-09-17T15:48:39Z'
+      subject: "postgres: `resin` db created by `docker` user"
+  date: 2018-09-17T15:48:39Z
   version: 1.1.3
 - commits:
     - author: Akis Kesoglou
@@ -167,50 +178,50 @@
       hash: 435adf0744152d1a63133a88b8ec5c56feb12c5f
       subject: Use local build script in CI
     - author: Akis Kesoglou
-      body: ''
+      body: ""
       hash: db3d04eeda168f7c35b16c1443d88ea50b0b8414
       subject: Push images to open-balena-db as well
-  date: '2018-03-20T11:16:27Z'
+  date: 2018-03-20T11:16:27Z
   version: 1.1.2
 - commits:
     - author: Heds Simons
-      body: ''
+      body: ""
       footers:
         change-type: patch
-        connects-to: '#10'
+        connects-to: "#10"
       hash: cb4d1dd1874d59d42ff07e3a9c75455f6abc317b
       subject: Move to V2 of CircleCI and include git for tagging.
-  date: '2018-03-08T14:37:53Z'
+  date: 2018-03-08T14:37:53Z
   version: 1.1.1
 - commits:
     - author: Pagan Gazzard
-      body: ''
+      body: ""
       footers:
         change-type: minor
       hash: d43650acb40c9b15db57d397c0fce676b51667ee
       subject: Update to postgres 10
-  date: '2018-03-05T17:35:26Z'
+  date: 2018-03-05T17:35:26Z
   version: 1.1.0
 - commits:
     - author: Heds Simons
       body: Removes old Jenkins automation code.
       footers:
         change-type: patch
-        connects-to: '#5'
+        connects-to: "#5"
       hash: fc7fe8688a2d86e5925331a7d134bc430c52f2cb
       subject: Move to CircleCI for builds.
-  date: '2017-11-06T09:41:10Z'
+  date: 2017-11-06T09:41:10Z
   version: 1.0.2
 - commits:
     - author: Heds Simons
-      body: ''
+      body: ""
       footers:
         change-type: patch
       hash: a45cde53119a8e2ae7db20fc1d9a322568167269
       subject: Add VersionBot support.
     - author: Pagan Gazzard
-      body: ''
+      body: ""
       hash: c67e46f9c36239e68473d366483f3a73cd22125c
       subject: Upgrade to postgres 9.6
-  date: '2017-11-02T09:29:09Z'
+  date: 2017-11-02T09:29:09Z
   version: 1.0.1
