@@ -1,4 +1,22 @@
 - commits:
+    - subject: Extend migrator to support upgrading between versioned data directories
+      hash: a569d60ceba85f65664ac48e165c295f7627dbf0
+      body: >
+        The migrator previously would only migrate data stored directly under
+        PGDATA (as was the case in previous versions of this project before
+        switching to versioned directories).
+
+
+        This adds support for upgrading between versioned data directories as well.
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Akis Kesoglou
+      nested: []
+  version: 5.1.0
+  title: "'Extend migrator to support upgrading between versioned data directories'"
+  date: 2022-03-22T13:37:42.074Z
+- commits:
     - subject: Modernize CI metadata
       hash: 3bd4b80bb9dff8203fca5732bde3d7afae32467d
       body: ""
