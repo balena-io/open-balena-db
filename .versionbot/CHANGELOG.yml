@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add Dockerfile for Apple Silicon M1
+      hash: 0e35ec4352906865c0abe03eaa471bee97533c19
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Ramiro Gonzalez <ramiro.gonzalez@balena.io>
+        signed-off-by: Ramiro Gonzalez <ramiro.gonzalez@balena.io>
+      author: Ramiro González Maciel
+      nested: []
+  version: 5.1.1
+  date: 2022-06-11T13:53:00.415Z
+- commits:
     - subject: Extend migrator to support upgrading between versioned data directories
       hash: a569d60ceba85f65664ac48e165c295f7627dbf0
       body: >
