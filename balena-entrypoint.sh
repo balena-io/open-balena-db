@@ -137,7 +137,7 @@ complete_upgrade_if_needed () {
         fi
         if [ -f "${WORKDIR}/delete_old_cluster.sh" ]; then
             echo "=== Deleting old cluster"
-            gosu postgres "${WORKDIR}/delete_old_cluster.sh"
+            "${WORKDIR}/delete_old_cluster.sh"
         else
             rm -rf "${PGDATAOLD}"
         fi
