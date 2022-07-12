@@ -1,4 +1,16 @@
 - commits:
+    - subject: Permissions fix while deleting old cluster on upgrade
+      hash: a056a4db8122875748ad2d98334895fc011c0b7e
+      body: ""
+      footer:
+        Change-Type: patch
+        change-type: patch
+      author: Bart Versluijs
+      nested: []
+  version: 5.1.2
+  title: "'Permissions fix while deleting old cluster on upgrade'"
+  date: 2022-06-20T19:24:06.103Z
+- commits:
     - subject: Update postgres from 13 to 14
       hash: 698ddbe2e5777c90dce8130cd29f149013814e7a
       body: ""
