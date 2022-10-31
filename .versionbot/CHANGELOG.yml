@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update postgres Docker tag to v15
+      hash: 5bdae476996adb29974150433eb3c6e869f2f29f
+      body: |
+        Update postgres to 15
+
+        Update postgres from 14 to 15
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Renovate Bot
+      nested: []
+  version: 5.2.0
+  date: 2022-10-31T23:58:48.451Z
+- commits:
     - subject: Switch from balenaCI to flowzone
       hash: 4b428cda8df34027b1edbaa320503c53a9125b1a
       body: ""
