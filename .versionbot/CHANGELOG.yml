@@ -1,4 +1,18 @@
 - commits:
+    - subject: Enable multi-arch docker builds via flowzone
+      hash: d527bba2539a0578971ac90a0fb0c6b93cb11254
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 5.1.4
+  title: ""
+  date: 2023-03-15T13:36:16.481Z
+- commits:
     - subject: Switch from balenaCI to flowzone
       hash: 4b428cda8df34027b1edbaa320503c53a9125b1a
       body: ""
