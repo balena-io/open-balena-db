@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update postgres Docker tag to v15
+      hash: 50b6102bac1c0e69fdebcde1fbba048bee4d4ef3
+      body: |
+        Update postgres to 15
+
+        Update postgres from 14 to 15
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Renovate Bot
+      nested: []
+  version: 5.2.0
+  title: ""
+  date: 2023-04-11T09:09:20.409Z
+- commits:
     - subject: Enable multi-arch docker builds via flowzone
       hash: d527bba2539a0578971ac90a0fb0c6b93cb11254
       body: ""
