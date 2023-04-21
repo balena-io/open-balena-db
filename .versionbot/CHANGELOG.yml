@@ -1,4 +1,16 @@
 - commits:
+    - subject: Remove unnecessary .gitignore
+      hash: 752d22f97b70f1eea93e57fbd7ece461bb77d979
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+      nested: []
+  version: 5.2.1
+  title: ""
+  date: 2023-04-21T13:40:59.399Z
+- commits:
     - subject: Update postgres Docker tag to v15
       hash: 50b6102bac1c0e69fdebcde1fbba048bee4d4ef3
       body: |
