@@ -1,4 +1,4 @@
-FROM postgres:15
+FROM postgres:16
 
 ENV POSTGRES_USER docker
 ENV POSTGRES_PASSWORD docker
