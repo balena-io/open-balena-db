@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update postgres Docker tag to v16
+      hash: dbb3e31ea23eef97e64688d73c20572fe2ca6e75
+      body: |
+        Update postgres from 15 to 16
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 5.2.2
+  title: ""
+  date: 2024-02-14T12:32:17.076Z
+- commits:
     - subject: Remove unnecessary .gitignore
       hash: 752d22f97b70f1eea93e57fbd7ece461bb77d979
       body: ""
