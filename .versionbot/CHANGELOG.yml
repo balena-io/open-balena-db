@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update postgres to v17
+      hash: b55394f4567a1a168b78c60852b3b76cff4104ef
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+      author: Pagan Gazzard
+      nested: []
+  version: 6.0.0
+  title: ""
+  date: 2025-02-13T16:29:38.780Z
+- commits:
     - subject: Update postgres Docker tag to v16
       hash: dbb3e31ea23eef97e64688d73c20572fe2ca6e75
       body: |
@@ -97,7 +109,8 @@
         switching to versioned directories).
 
 
-        This adds support for upgrading between versioned data directories as well.
+        This adds support for upgrading between versioned data directories as
+        well.
       footer:
         Change-type: minor
         change-type: minor
@@ -254,15 +267,11 @@
   version: 2.0.0
 - commits:
     - author: Heds Simons
-      body: >-
+      body: |-
         Due to recent changes in the Postgres codebase, and
-
         rebuilds of tagged Docker images, the default `postgres`
-
         user will no longer exist. See:
-
         https://github.com/docker-library/postgres/commit/0aff40cb72f4f5968a1bb4cb04e2fc6f1ce8857e
-
         Database is now created by the generated `docker` user.
       footers:
         change-type: patch
