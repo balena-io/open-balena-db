@@ -1,4 +1,17 @@
 - commits:
+    - subject: Pin product-os/flowzone action to a53cf4b
+      hash: be7f0b9e482652dab14f7efe7c1afc3e44227c24
+      body: |
+        Update product-os/flowzone
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 6.0.1
+  title: ""
+  date: 2026-03-24T18:33:50.946Z
+- commits:
     - subject: Update postgres to v17
       hash: b55394f4567a1a168b78c60852b3b76cff4104ef
       body: ""
