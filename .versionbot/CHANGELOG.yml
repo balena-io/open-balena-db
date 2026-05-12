@@ -1,4 +1,17 @@
 - commits:
+    - subject: Pin postgres Docker tag to 2a0d0fe
+      hash: f4650c44eb4205e5df17eb3cc5080373e96a6ad2
+      body: |
+        Update postgres
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 6.0.16
+  title: ""
+  date: 2026-05-12T18:03:36.187Z
+- commits:
     - subject: Revert flowzone pinning to master
       hash: ea63168f045a2e4da7f19c22940ab434a60ac9e2
       body: ""
