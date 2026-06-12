@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update postgres:17 Docker digest to 2203e62
+      hash: 84e459229b3e0a0794cf8ab658288b9d53e55a68
+      body: |
+        Update postgres
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 6.0.25
+  title: ""
+  date: 2026-06-12T22:32:11.333Z
+- commits:
     - subject: Update postgres:17 Docker digest to ef92240
       hash: 92b3e43a7bbc34ac3b57b21f69e6e0e537b7187e
       body: |
