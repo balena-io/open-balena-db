@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update postgres to v18
+      hash: c05ed350f19e3406d89e4061464ce4ee128894dc
+      body: |
+        https://balena.fibery.io/Work/Project/2648
+      footer:
+        Change-type: major
+        change-type: major
+      author: Pagan Gazzard
+      nested: []
+  version: 7.0.0
+  title: ""
+  date: 2026-06-15T13:18:59.028Z
+- commits:
     - subject: Update postgres:17 Docker digest to 2203e62
       hash: 84e459229b3e0a0794cf8ab658288b9d53e55a68
       body: |
