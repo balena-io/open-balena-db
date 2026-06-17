@@ -1,4 +1,17 @@
 - commits:
+    - subject: Revert PGDATA to ensure backwards compatibility/automatic upgrades work
+      hash: 647f2ad123ce618683caa417a286ba369532dcd9
+      body: |
+        https://balena.fibery.io/Work/Project/2648
+      footer:
+        Change-type: major
+        change-type: major
+      author: Pagan Gazzard
+      nested: []
+  version: 8.0.0
+  title: ""
+  date: 2026-06-17T12:02:00.900Z
+- commits:
     - subject: Update postgres to v18
       hash: c05ed350f19e3406d89e4061464ce4ee128894dc
       body: |
