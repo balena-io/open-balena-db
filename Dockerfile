@@ -2,6 +2,8 @@ FROM postgres:18@sha256:29ee7bb30d804447dc9a91fd0d74322ae1dc3a4072cc6346f70a5ed6
 
 ENV POSTGRES_USER=docker
 ENV POSTGRES_PASSWORD=docker
+ENV PGDATA=/var/lib/postgresql/data
+VOLUME /var/lib/postgresql/data
 
 COPY create-resin-db.sh /docker-entrypoint-initdb.d/
 COPY balena-entrypoint.sh /balena-entrypoint.sh
