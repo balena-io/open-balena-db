@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update postgres:18 Docker digest to 0f87cee
+      hash: f0f325f34acb5abef93357503077c441deeaed14
+      body: |
+        Update postgres
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 8.0.1
+  title: ""
+  date: 2026-06-24T04:36:28.620Z
+- commits:
     - subject: Revert PGDATA to ensure backwards compatibility/automatic upgrades work
       hash: 647f2ad123ce618683caa417a286ba369532dcd9
       body: |
