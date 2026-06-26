@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update postgres:18 Docker digest to 4aabea7
+      hash: b54cc028a55ba7c13fae7069ff5882478ee59536
+      body: |
+        Update postgres
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 8.0.4
+  title: ""
+  date: 2026-06-26T22:23:54.323Z
+- commits:
     - subject: Update postgres:18 Docker digest to 1a5b3e7
       hash: fd84fe7d704aa40555028db0076e1717e7b757d9
       body: |
