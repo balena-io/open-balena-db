@@ -82,12 +82,29 @@ perform_upgrade_if_needed () {
         echo "=== Installing tools for Postgres v${SOURCE_VERSION}"
         install_old_version "$SOURCE_VERSION"
 
+        # pg_upgrade requires checksum settings to match between old and
+        # new clusters. PG18 enables checksums by default in initdb. If the old
+        # cluster has none, enable them now so both sides agree.
+        local old_checksum_version
+        old_checksum_version=$("${PGBINOLD}/pg_controldata" "$PGDATAOLD" \
+          | grep "Data page checksum version" \
+          | awk '{print $NF}')
+        if [ "${old_checksum_version}" = "0" ]; then
+          echo "=== Enabling checksums on old cluster (required for pg_upgrade)"
+          gosu postgres "${PGBINOLD}/pg_checksums" --enable -D "$PGDATAOLD"
+        fi
+
         echo "=== Initializing new data directory ${PGDATANEW}"
         create_postgres_dir "${PGDATANEW}"
-        gosu postgres initdb \
-            -D "$PGDATANEW" \
-            -U "$POSTGRES_USER" \
-            $POSTGRES_INITDB_ARGS
+
+        # skip initdb if a previous interrupted attempt already
+        # initialized this directory — mirrors the docker-postgres-upgrade pattern
+        if [ ! -s "${PGDATANEW}/PG_VERSION" ]; then
+          gosu postgres initdb \
+              -D "$PGDATANEW" \
+              -U "$POSTGRES_USER" \
+              $POSTGRES_INITDB_ARGS
+        fi
 
         echo "=== Running pg_upgrade"
         pushd "${WORKDIR}" >/dev/null
