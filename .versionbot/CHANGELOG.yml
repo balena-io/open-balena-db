@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update postgres:18 Docker digest to 4ef4dbc
+      hash: 1e9cd63617537bc120cd2588e1f6daabb9d6dc27
+      body: |
+        Update postgres
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 8.0.20
+  title: ""
+  date: 2026-08-26T19:51:07.242Z
+- commits:
     - subject: Update dependency flowzonify to v0.4.0
       hash: 4a0989e2c01b0d8d147ddcfe52e82e3df92d3e33
       body: |
