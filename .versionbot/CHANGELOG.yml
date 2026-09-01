@@ -1,4 +1,23 @@
 - commits:
+    - subject: Enable checksum by default before migration
+      hash: eb21246381fb2bfc18e1affcc14d8e543778286b
+      body: |
+        PG18 now enables checksum by default so migrating
+        from 17 or older fails because checksums are not
+        enabled on the directory and the db crashes with
+        "old cluster does not use data checksums but the
+        new one does Failure, exiting"
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: jaomaloy <jan.maloy@balena.io>
+        signed-off-by: jaomaloy <jan.maloy@balena.io>
+      author: jaomaloy
+      nested: []
+  version: 8.0.21
+  title: ""
+  date: 2026-09-01T09:52:42.072Z
+- commits:
     - subject: Update postgres:18 Docker digest to 4ef4dbc
       hash: 1e9cd63617537bc120cd2588e1f6daabb9d6dc27
       body: |
