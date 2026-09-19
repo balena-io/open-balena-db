@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update postgres:18 Docker digest to 10037ce
+      hash: b8c7efd74cb4fdddd401c6014d101412f137eb0c
+      body: |
+        Update postgres
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 8.0.22
+  title: ""
+  date: 2026-09-19T05:09:53.774Z
+- commits:
     - subject: Enable checksum by default before migration
       hash: eb21246381fb2bfc18e1affcc14d8e543778286b
       body: |
