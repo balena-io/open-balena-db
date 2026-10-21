@@ -1,4 +1,4 @@
-FROM postgres:18@sha256:4ef4dbc939d61acea57712655ddb4b4ab27419c913f94cca0cd57cb3ea3c2280
+FROM postgres:18@sha256:edb0c08dc33befd0262ab3b5cf1c4f3f8cfd8b09e88c05b45adee29d6761ddb6
 
 ENV POSTGRES_USER=docker
 ENV POSTGRES_PASSWORD=docker
